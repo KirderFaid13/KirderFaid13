@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" width="100%" role="img" aria-label="Resumen de Ingeniería — Nicolás Goray">
+  <defs>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#161b22" />
+      <stop offset="100%" stop-color="#0d1117" />
+    </linearGradient>
+    <linearGradient id="barCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+    <linearGradient id="barIndigo" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+    <linearGradient id="barEmerald" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+    <linearGradient id="barAmber" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#fbbf24" />
+    </linearGradient>
+  </defs>
+
+  <!-- Column 1: Enfoque Técnico -->
+  <rect x="2" y="4" width="384" height="212" rx="14" fill="url(#cardGrad)" stroke="#30363d" stroke-width="1.2" />
+  <rect x="2" y="4" width="384" height="4" rx="2" fill="#38bdf8" fill-opacity="0.85" />
+  <text x="24" y="34" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="800" letter-spacing="0.8" fill="#38bdf8">ENFOQUE TÉCNICO</text>
+
+  <g font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif">
+    <circle cx="30" cy="64" r="4" fill="#38bdf8" />
+    <text x="44" y="68" font-size="13.5" font-weight="700" fill="#f1f5f9">Desarrollo Web Full-Stack</text>
+    <text x="44" y="84" font-size="11.5" fill="#94a3b8">Interfaces React + TS y APIs RESTful</text>
+
+    <circle cx="30" cy="108" r="4" fill="#a855f7" />
+    <text x="44" y="112" font-size="13.5" font-weight="700" fill="#f1f5f9">Sistemas ERP Multiempresa</text>
+    <text x="44" y="128" font-size="11.5" fill="#94a3b8">ASP.NET Core 8 MVC y SQL Server</text>
+
+    <circle cx="30" cy="152" r="4" fill="#34d399" />
+    <text x="44" y="156" font-size="13.5" font-weight="700" fill="#f1f5f9">APIs Escalables en Python</text>
+    <text x="44" y="172" font-size="11.5" fill="#94a3b8">FastAPI, SQLAlchemy y PostgreSQL</text>
+
+    <circle cx="30" cy="192" r="4" fill="#fbbf24" />
+    <text x="44" y="196" font-size="13.5" font-weight="700" fill="#f1f5f9">Modelos Predictivos (ML)</text>
+    <text x="218" y="196" font-size="11.5" fill="#94a3b8">Scikit-Learn &amp; LightGBM</text>
+  </g>
+
+  <!-- Column 2: Dominio de Stack -->
+  <rect x="408" y="4" width="384" height="212" rx="14" fill="url(#cardGrad)" stroke="#30363d" stroke-width="1.2" />
+  <rect x="408" y="4" width="384" height="4" rx="2" fill="#818cf8" fill-opacity="0.85" />
+  <text x="430" y="34" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="800" letter-spacing="0.8" fill="#818cf8">DOMINIO DE STACK</text>
+
+  <g font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif">
+    <!-- Row 1 -->
+    <text x="430" y="64" font-size="13" font-weight="600" fill="#f1f5f9">C# / .NET 8</text>
+    <text x="770" y="64" text-anchor="end" font-size="11.5" font-weight="700" fill="#a855f7">Alto</text>
+    <rect x="430" y="72" width="340" height="8" rx="4" fill="#1e293b" />
+    <rect x="430" y="72" width="306" height="8" rx="4" fill="url(#barIndigo)" />
+
+    <!-- Row 2 -->
+    <text x="430" y="104" font-size="13" font-weight="600" fill="#f1f5f9">Python / FastAPI / ML</text>
+    <text x="770" y="104" text-anchor="end" font-size="11.5" font-weight="700" fill="#34d399">Alto</text>
+    <rect x="430" y="112" width="340" height="8" rx="4" fill="#1e293b" />
+    <rect x="430" y="112" width="300" height="8" rx="4" fill="url(#barEmerald)" />
+
+    <!-- Row 3 -->
+    <text x="430" y="144" font-size="13" font-weight="600" fill="#f1f5f9">TypeScript / React</text>
+    <text x="770" y="144" text-anchor="end" font-size="11.5" font-weight="700" fill="#38bdf8">Medio-Alto</text>
+    <rect x="430" y="152" width="340" height="8" rx="4" fill="#1e293b" />
+    <rect x="430" y="152" width="258" height="8" rx="4" fill="url(#barCyan)" />
+
+    <!-- Row 4 -->
+    <text x="430" y="184" font-size="13" font-weight="600" fill="#f1f5f9">SQL Server / PostgreSQL</text>
+    <text x="770" y="184" text-anchor="end" font-size="11.5" font-weight="700" fill="#fbbf24">Alto</text>
+    <rect x="430" y="192" width="340" height="8" rx="4" fill="#1e293b" />
+    <rect x="430" y="192" width="300" height="8" rx="4" fill="url(#barAmber)" />
+  </g>
+
+  <!-- Column 3: Prácticas de Ingeniería -->
+  <rect x="814" y="4" width="384" height="212" rx="14" fill="url(#cardGrad)" stroke="#30363d" stroke-width="1.2" />
+  <rect x="814" y="4" width="384" height="4" rx="2" fill="#34d399" fill-opacity="0.85" />
+  <text x="836" y="34" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="800" letter-spacing="0.8" fill="#34d399">PRÁCTICAS DE INGENIERÍA</text>
+
+  <g font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif">
+    <rect x="836" y="54" width="18" height="18" rx="5" fill="#064e3b" stroke="#34d399" stroke-width="1" />
+    <text x="845" y="67" text-anchor="middle" font-size="11" font-weight="700" fill="#34d399">✓</text>
+    <text x="864" y="67" font-size="13.5" font-weight="700" fill="#f1f5f9">Principios SOLID, DRY e IoC</text>
+    <text x="864" y="83" font-size="11.5" fill="#94a3b8">Refactorización y arquitectura limpia</text>
+
+    <rect x="836" y="98" width="18" height="18" rx="5" fill="#064e3b" stroke="#34d399" stroke-width="1" />
+    <text x="845" y="111" text-anchor="middle" font-size="11" font-weight="700" fill="#34d399">✓</text>
+    <text x="864" y="111" font-size="13.5" font-weight="700" fill="#f1f5f9">Pruebas Automatizadas</text>
+    <text x="864" y="127" font-size="11.5" fill="#94a3b8">Validación continua con pytest y vitest</text>
+
+    <rect x="836" y="142" width="18" height="18" rx="5" fill="#064e3b" stroke="#34d399" stroke-width="1" />
+    <text x="845" y="155" text-anchor="middle" font-size="11" font-weight="700" fill="#34d399">✓</text>
+    <text x="864" y="155" font-size="13.5" font-weight="700" fill="#f1f5f9">Contenedores Docker</text>
+    <text x="864" y="171" font-size="11.5" fill="#94a3b8">Servicios y bases de datos reproducibles</text>
+
+    <rect x="836" y="186" width="18" height="18" rx="5" fill="#064e3b" stroke="#34d399" stroke-width="1" />
+    <text x="845" y="199" text-anchor="middle" font-size="11" font-weight="700" fill="#34d399">✓</text>
+    <text x="864" y="199" font-size="13.5" font-weight="700" fill="#f1f5f9">Integración SUNAT</text>
+    <text x="1004" y="199" font-size="11.5" fill="#94a3b8">Comprobantes electrónicos</text>
+  </g>
+</svg>

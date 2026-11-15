@@ -17,7 +17,7 @@
 
 ## 👨‍💻 Sobre mí
 
-Soy **Nicolás Goray**, desarrollador de software e estudiante de **Ingeniería de Sistemas Computacionales (UPN)**. Me especializo en construir aplicaciones web confiables, plataformas empresariales con **C# / ASP.NET Core 8** y **SQL Server**, APIs escalables en **Python (FastAPI)** e interfaces modernas con **React + TypeScript**, integrando modelos de **Machine Learning** en flujos de trabajo reales.
+Soy **Nicolás Goray**, desarrollador de software y estudiante de **Ingeniería de Sistemas Computacionales (UPN)**. Me especializo en construir aplicaciones web confiables, plataformas empresariales con **C# / ASP.NET Core 8** y **SQL Server**, APIs escalables en **Python (FastAPI)** e interfaces modernas con **React + TypeScript**, integrando modelos de **Machine Learning** en flujos de trabajo reales.
 
 - 🏗️ Experiencia desarrollando sistemas ERP multiempresa en **.NET 8** (ventas, caja, inventario, laboratorio y comprobantes electrónicos **SUNAT**).
 - 🤖 Diseño de soluciones con **IA aplicada** (*Human-in-the-Loop*, clasificación de texto y modelos predictivos con **LightGBM / Scikit-Learn**).
